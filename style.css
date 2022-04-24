@@ -1,0 +1,361 @@
+
+@font-face {
+    font-family: Optima;
+    src: url("fonts/OPTIMA.TTF");
+}
+@font-face {
+    font-family: Formula1;
+    src: url("fonts/Formula\ 1.ttf");
+}
+#home-logo {
+    width: 20%;
+    padding-left: 1%;
+    display: inline-block;
+    padding-top: 1px;
+    padding-right: 1%;
+}
+#home-header{
+    margin-top: -50px;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.815);
+    z-index: 1;
+}
+.menu {
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu-list li {
+    margin-top: -10px;
+    padding-top: 0px;
+    padding-left: 6%;
+    color: rgb(211, 211, 211);
+    list-style-type: none;
+    display: inline-block;
+    font-size: 130%;
+    font-weight: 900;
+}
+#list{
+    width: 77%;
+}
+#li-teams{
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    font-size: 130%;
+    padding: 0.5% 3%;
+    margin-left: 7%;
+    margin-bottom: 0px;
+}
+h1 {
+    margin: 0%;
+    text-align: center;
+    font-size: 40px;
+    font-family: Optima;
+}
+#Ferrari-h1 {
+
+    text-shadow: 3px 3px 6px rgb(0, 0, 0);
+    line-height: 150%;
+    color: rgb(209, 209, 209);
+    background-color: rgb(114, 1, 1);
+    margin-bottom: 0%;
+    border-style: solid;
+    border-color: rgb(24, 0, 0);
+    border-width: 8px;
+    border-bottom-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#home-h1 {
+    margin-top: 50px;
+    border-top: solid;
+    line-height: 50px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+    color: rgb(219, 1, 1);
+    letter-spacing: 4px;
+    background-color: rgb(236, 236, 236);
+    border-bottom: solid;
+    transition: all 0.5s ease;
+}
+#home-h1:hover {
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+.first-video{
+    width: 100%;
+    margin: auto;
+}
+#first-vid-img {
+    width: 100%;
+    /*box-shadow: -5px -5px 55px rgba(139, 0, 0, 0.616), 5px 5px 5px rgba(61, 0, 0, 0.233);*/
+}
+#on-top-video {
+    margin-top: -38%;
+    width: 100%;
+}
+#on-top-video-content {
+    color: rgb(255, 24, 24);
+    text-align: center;
+    font-family: Formula1;
+    font-size: 25px;
+    line-height: 40px;
+    padding-bottom: 5%;
+    transition: all 0.5s;
+}
+#on-top-video-content:hover {
+    color: white;
+    font-size: 30px;
+    text-shadow: 5px 5px 15px rgb(0, 0, 0);
+}
+#play-button{
+    margin: auto;
+    display: block;
+    opacity: 60%;
+    z-index: -2;
+}
+.signup-div{
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 14%;
+}
+.signup-div input{
+    width: 30%;
+    height: 25px;
+    font-weight: 600;
+}
+.signup-div button{
+    width: 30%;
+    height: 30px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    background-color: rgb(255, 0, 0);
+}
+.tag-line {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    font-family: Optima;
+    font-size: 30px;
+    padding-bottom: 5%;
+    letter-spacing: 3px;
+}
+.col-3{
+    width: 90%;
+    margin: auto;
+}
+.col-3-content{
+    
+    padding: 20px;
+    padding-left: 2%;
+    float: left;
+    width: 28%;
+    color: white;
+}
+.col-3-content img{
+    width: 110%;
+}
+.col-3-content h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 130%;
+    padding-top: 5%;
+    margin: 0;
+}
+.col-3-content p{
+    text-align: center;
+    margin-left: 4%;
+    width: 100%;
+    padding: 0%;
+    padding-top: 5%;
+    font-size: .9em;
+    letter-spacing: .5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(189, 189, 189);
+}
+#pic-text-cnt{
+    width: 100%;
+}
+.pic-text {
+    width: 50%;
+    float: left;
+    background-color: rgb(19, 19, 19);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.pic-text img{
+    width: 99.9%;
+}
+#pic-text-helm {
+    padding-left: 3%;
+    padding-top: 0%;
+    width:max-content;
+    padding-bottom: 0%;
+    padding-right: 10%;
+}
+.pic-text h3{
+    padding-top: 9%;
+    font-size: 200%;
+    font-weight: 100;
+}
+.pic-text p {
+    margin-top: -25px;
+    font-size: 100%;
+    padding-bottom: 12.33%;
+}
+p{
+    text-indent: 4%;
+    margin-top: 0%;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+    padding-left: 20%;
+    padding-right: 20%;
+    color: rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 0%;
+}
+#space-hr {
+    margin-top: 1050px;
+}
+.action {
+    color: white;
+    margin-top: 70%;
+    text-align: center;
+    background-image: url("images/Darkdesk.jpg");
+    height: 300px;
+}
+.action h2{
+    line-height: 500%;
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.action button{
+    margin-top: 20px;
+    width: 15%;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(223, 0, 0);
+    border: none;
+    transition: all 0.5s ease;
+}
+.action button:hover{
+    width: 18%;
+    background-color: rgb(123, 255, 0);
+    border-radius: 28px;
+    color: black;
+}
+.action p{
+    margin-top: -80px;
+}
+.pic-text-text {
+    padding-top: 63px;
+    padding-bottom: 20px;
+}
+.pic-text-form h2{
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.pic-text-form input{
+    height: 30px;
+    margin-bottom: 5px;
+    border-radius: 28px;
+    border: solid;
+    padding-left: 20px;
+    transition: all .5s;
+    font-family: 'Courier New', Courier, monospace;
+}
+.pic-text-form input:hover {
+    border: solid;
+    border-color: rgb(166, 255, 0);
+}
+.pic-text-form p{
+    padding-top: 10px;
+    line-height: 15px;
+    padding-left: 235px;
+    font-size: 11px;
+    width: 30%;
+    padding-bottom: 50px;
+}
+.pic-text-form button{
+    width: 27%;
+    border: solid;
+    margin-top: 2px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    border-radius: 28px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    background-color: rgb(223, 0, 0);
+}
+.pic-text-form button:hover {
+    animation-name: submit-news;
+    animation-duration: 20s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes submit-news {
+    0% {    background-color: rgb(223, 0, 0);}
+    10% {    background-color: rgb(255, 136, 0);}
+    20% {    background-color: rgb(0, 97, 223);}
+    30% {    background-color: rgb(73, 73, 73);}
+    40% {    background-color: rgb(0, 149, 92);}
+    50% {    background-color: rgb(95, 0, 0);}
+    60% {    background-color: rgb(33, 0, 223);}
+    70% {    background-color: rgb(255, 114, 114);}
+    80% {    background-color: rgb(247, 58, 0);}
+    90% {    background-color: rgb(63, 104, 98);}
+}
+footer{
+    margin-top: 0%;
+    padding: 1%;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.603);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+body{
+    margin: 0%;
+    /*background-color: rgb(189, 189, 189);*/
+}
+#Ferrari-body {
+    background-color: black;
+    margin: 0%;
+    background-image: url("images/ferrari4kedit.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+#home-body {
+    background-color: rgb(31, 31, 31);
+    margin: 0%;
+    margin-bottom: 226px;
+    /*background-image: url("images/f1allcars-02.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+}
+.footer{
+    width: 98%;
+    margin: auto;
+    position: fixed; left: 0; bottom: 0;
+    z-index: -100;
+    background-image: url("images/f1allcars-02.jpeg");
+    background-position: 50% 50%;
+}
